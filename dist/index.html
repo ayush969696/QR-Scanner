@@ -10,35 +10,54 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-   
+
     <title>QR Code Scanner</title>
   </head>
-  <body class="flex font-serif items-center justify-center min-h-[100vh] py-0 px-2.5 bg-[#E3F2FD]">
+  <body
+    class="flex font-serif items-center justify-center min-h-[100vh] py-0 px-2.5 bg-[#E3F2FD]"
+  >
     <!-- Wrapper div -->
-    <div class="h-[270px] w-[420px] rounded-[7px] bg-[#db7918] pt-[30px] pr-[30px] pl-[30px] pb-[35px]  active:has-[525px]:">
-      
-       <!-- our form section -->
-      <form action="#" class="h-52 flex cursor-pointer select-none text-center rounded-[7px] bg-[#fff] items-center justify-center transition h delay-150 ease-in">
-        <input type="file" hidden />
-        <img src="#" alt="qr-code" />
+    <div
+      class="h-[270px] w-[420px] rounded-[7px] bg-[#db7918] pt-[30px] pr-[30px] pl-[30px] pb-[35px] active:has-[525px]:"
+    >
+      <!-- our form section -->
+      <form
+        action="#"
+        class="h-52 flex cursor-pointer select-none text-center rounded-md bg-[#fff] items-center justify-center transition duration-200 ease"
+      >
+        <input type="file" class="hidden" />
+        <img src="#" alt="qr-code" class="hidden" />
 
         <!-- Our Content section -->
-        <div class="">
-          <i class="fas fa-cloud-upload"></i>
-          <p>Upload QR Code to Read</p>
+        <div>
+          <i class="fas fa-cloud-upload text-[#db7918] text-5xl"></i>
+          <p class="text-[#db7918] tex-lg mt-3">Upload QR Code to Read</p>
         </div>
       </form>
-      <!-- our form section -->
+      <!-- our form section ends-->
 
       <!-- our details section -->
-      <div class="">
-        <textarea spellcheck="false" disabled></textarea>
-        <div class="">
-          <button class="">Close</button>
-          <button class="">Copy Text</button>
+      <div
+        class="details opacity-5 mt-8 pointer-events-none transition-opacity duration-500 ease"
+      >
+        <textarea
+          spellcheck="false"
+          disabled
+          class="w-full h-128 outline-none resize-none text-white text-lg bg-none border-2 border-white rounded-md px-4 py-3"
+        ></textarea>
+        <div class="buttons flex mt-4 items-center justify-between">
+          <button
+            class="h-16 outline-none border-none font-medium text-lg cursor-pointer text-[#db7918] rounded-md bg-white transition-transform duration-300 ease w-1/2"
+          >
+            Close
+          </button>
+          <button
+            class="h-16 outline-none border-none font-medium text-lg cursor-pointer text-[#db7918] rounded-md bg-white transition-transform duration-300 ease w-1/2"
+          >
+            Copy Text
+          </button>
         </div>
       </div>
-      <!-- our details section end here -->
     </div>
     <!-- our form section -->
 
