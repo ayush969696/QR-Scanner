@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+   
     <title>QR Code Scanner</title>
-</head>
-<body class="bg-slate-600">
-    <h1 class="text-white">Hello</h1>
+  </head>
+  <body class="flex font-serif items-center justify-center min-h-[100vh] py-0 px-2.5 bg-[#E3F2FD]">
+    <!-- Wrapper div -->
+    <div class="h-[270px] w-[420px] rounded-[7px] bg-[#db7918] pt-[30px] pr-[30px] pl-[30px] pb-[35px]  active:has-[525px]:">
+      
+       <!-- our form section -->
+      <form action="#" class="h-52 flex cursor-pointer select-none text-center rounded-[7px] bg-[#fff] items-center justify-center transition h delay-150 ease-in">
+        <input type="file" hidden />
+        <img src="#" alt="qr-code" />
 
+        <!-- Our Content section -->
+        <div class="">
+          <i class="fas fa-cloud-upload"></i>
+          <p>Upload QR Code to Read</p>
+        </div>
+      </form>
+      <!-- our form section -->
+
+      <!-- our details section -->
+      <div class="">
+        <textarea spellcheck="false" disabled></textarea>
+        <div class="">
+          <button class="">Close</button>
+          <button class="">Copy Text</button>
+        </div>
+      </div>
+      <!-- our details section end here -->
+    </div>
+    <!-- our form section -->
+
+    <!-- Js Script -->
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

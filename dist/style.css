@@ -544,12 +544,269 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[270px\] {
+  height: 270px;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.min-h-0 {
+  min-height: 0px;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
+.w-\[420px\] {
+  width: 420px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-\[7px\] {
+  border-radius: 7px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#E\] {
+  background-color: #E;
+}
+
+.bg-\[\#E3\] {
+  background-color: #E3;
+}
+
+.bg-\[\#E3F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 51 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E3F2FD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 242 253 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0\] {
+  background-color: #0;
+}
+
+.bg-\[\#0B8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 187 136 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0B85FE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 133 254 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0B85F4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 133 244 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0B85\] {
+  background-color: #0B85;
+}
+
+.bg-\[\#0B85F\] {
+  background-color: #0B85F;
+}
+
+.bg-\[\#2f7ac5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 122 197 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1a63ad\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 99 173 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1aad3a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 173 58 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#15be39\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 190 57 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#be6a15\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 106 21 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#db7918\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 121 24 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[2\] {
+  padding-bottom: 2;
+}
+
+.pb-\[3\] {
+  padding-bottom: 3;
+}
+
+.pb-\[35px\] {
+  padding-bottom: 35px;
+}
+
+.pl-\[\] {
+  padding-left: ;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.delay-150 {
+  transition-delay: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
